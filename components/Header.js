@@ -12,6 +12,8 @@ const Header = () => {
     </div>
   );
 };
+export default Header;
+
 {
   /* <style jsx>{`
   .title {
@@ -19,4 +21,3 @@ const Header = () => {
   }
 `}</style> */
 }
-export default Header;
