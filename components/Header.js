@@ -5,16 +5,22 @@ const Header = () => {
 
   return (
     <div>
-      <h1 className="title">
+      <h1 className={headerStyles.title}>
         <span>WebDev</span>News
       </h1>
-      <style jsx>{`
-        .title {
-          color: ${x > 3 ? "red" : "blue"};
-        }
-      `}</style>
+      <p className={headerStyles.description}>
+        Keep upto date with latest webdev news
+      </p>
     </div>
   );
 };
 
 export default Header;
+
+{
+  /* <style jsx>{`
+  .title {
+    color: ${x > 3 ? "red" : "blue"};
+  }
+`}</style> */
+}
