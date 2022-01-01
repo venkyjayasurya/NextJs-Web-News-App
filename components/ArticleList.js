@@ -1,5 +1,6 @@
-import ArticleItem from './ArticleItem'
-import articleStyles from '../styles/Article.module.css'
+/* eslint-disable react/jsx-key */
+import ArticleItem from "./ArticleItem";
+import articleStyles from "../styles/Article.module.css";
 
 const ArticleList = ({ articles }) => {
   return (
@@ -8,7 +9,7 @@ const ArticleList = ({ articles }) => {
         <ArticleItem article={article} />
       ))}
     </div>
-  )
-}
+  );
+};
 
-export default ArticleList
+export default ArticleList;
